@@ -1,0 +1,10 @@
+(function() {var implementors = {};
+implementors["amethyst_context"] = ["impl Component for <a class='struct' href='amethyst_context/event/struct.EngineEvent.html' title='amethyst_context::event::EngineEvent'>EngineEvent</a>","impl&lt;T:&nbsp;<a class='trait' href='https://doc.rust-lang.org/nightly/core/any/trait.Any.html' title='core::any::Any'>Any</a> + <a class='trait' href='https://doc.rust-lang.org/nightly/core/marker/trait.Send.html' title='core::marker::Send'>Send</a> + <a class='trait' href='https://doc.rust-lang.org/nightly/core/marker/trait.Sync.html' title='core::marker::Sync'>Sync</a>&gt; Component for <a class='struct' href='amethyst_context/asset_manager/struct.Asset.html' title='amethyst_context::asset_manager::Asset'>Asset</a>&lt;T&gt;",];implementors["amethyst"] = ["impl Component for <a class='struct' href='amethyst/processors/rendering/struct.Renderable.html' title='amethyst::processors::rendering::Renderable'>Renderable</a>","impl Component for <a class='struct' href='amethyst/processors/rendering/struct.Light.html' title='amethyst::processors::rendering::Light'>Light</a>","impl Component for <a class='struct' href='amethyst/processors/rendering/struct.Camera.html' title='amethyst::processors::rendering::Camera'>Camera</a>","impl Component for <a class='struct' href='amethyst/processors/transform/struct.LocalTransform.html' title='amethyst::processors::transform::LocalTransform'>LocalTransform</a>","impl Component for <a class='struct' href='amethyst/processors/transform/struct.Transform.html' title='amethyst::processors::transform::Transform'>Transform</a>","impl Component for <a class='struct' href='amethyst/processors/transform/struct.Init.html' title='amethyst::processors::transform::Init'>Init</a>","impl Component for <a class='struct' href='amethyst/processors/transform/struct.Child.html' title='amethyst::processors::transform::Child'>Child</a>",];
+
+            if (window.register_implementors) {
+                window.register_implementors(implementors);
+            } else {
+                window.pending_implementors = implementors;
+            }
+        
+})()
